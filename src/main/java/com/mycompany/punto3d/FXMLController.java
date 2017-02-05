@@ -73,21 +73,19 @@ public class FXMLController implements Initializable {
             d3 = Double.toString(listapuntos.get(i).z);
             
             tabla1 += "<TR>\n" +
-		"<TH>"+  d1    +"</TH><TH>"+     d2    +"</TH> <TH>" +  d3    + "</TH>\n" +
-      	"</TR>\n" ; 
+		      "<TH>"+ d1 +"</TH><TH>"+ d2 +"</TH> <TH>" + d3 + "</TH>\n" +
+      	              "</TR>\n" ; 
             
             tabla.getEngine().loadContent(" <html>\n" +
-"<head><title> beta </title></head>\n" +
-"<body>\n" +
-"                <TABLE BORDER>\n" +
-"	<TR>\n" +
-"		<TH>x</TH> <TH>y</TH> <TH>z</TH>\n" +
-"	</TR>\n" + tabla1 +
-                
-                
-"        </TABLE>\n" +
-"                        </body>\n" +
-"    </html> " );
+                                          "<head><title> beta </title></head>\n" +
+                                          "<body>\n" +
+                                          "<TABLE BORDER>\n" +
+                                          "<TR>\n" +
+                                          "<TH>x</TH> <TH>y</TH> <TH>z</TH>\n" +
+                                          "</TR>\n" + tabla1 +
+                                          "</TABLE>\n" +
+                                          "</body>\n" +
+                                          "</html> ");
         }
     }
     
@@ -109,20 +107,18 @@ public class FXMLController implements Initializable {
             d3 = Double.toString(listapuntos.get(i).z);
             
             tabla1 += "<TR>\n" +
-		"<TH>"+  d1    +"</TH><TH>"+     d2    +"</TH> <TH>" +  d3    + "</TH>\n" +
-      	"</TR>\n" ; 
+		      "<TH>"+ d1 +"</TH><TH>"+ d2 +"</TH> <TH>" + d3 + "</TH>\n" +
+      	              "</TR>\n" ; 
             tabla.getEngine().loadContent(" <html>\n" +
-"<head><title> beta </title></head>\n" +
-"<body>\n" +
-"                <TABLE BORDER>\n" +
-"	<TR>\n" +
-"		<TH>x</TH> <TH>y</TH> <TH>z</TH>\n" +
-"	</TR>\n" + tabla1 +
-                
-                
-"        </TABLE>\n" +
-"                        </body>\n" +
-"    </html> " );
+                                          "<head><title> beta </title></head>\n" +
+                                          "<body>\n" +
+                                          "<TABLE BORDER>\n" +
+                                          "<TR>\n" +
+                                          "<TH>x</TH> <TH>y</TH> <TH>z</TH>\n" +
+                                          "</TR>\n" + tabla1 +
+                                          "</TABLE>\n" +
+                                          "</body>\n" +
+                                          "</html> " );
             
         }
     }
@@ -136,21 +132,19 @@ public class FXMLController implements Initializable {
             d3 = Double.toString(listapuntos.get(i).z);
             
             tabla1 += "<TR>\n" +
-		"<TH>"+  d1    +"</TH><TH>"+     d2    +"</TH> <TH>" +  d3    + "</TH>\n" +
+		"<TH>"+ d1 +"</TH><TH>"+ d2 +"</TH> <TH>" + d3 + "</TH>\n" +
       	"</TR>\n" ; 
             
-            tabla.getEngine().loadContent(" <html>\n" +
-"<head><title> beta </title></head>\n" +
-"<body>\n" +
-"                <TABLE BORDER>\n" +
-"	<TR>\n" +
-"		<TH>x</TH> <TH>y</TH> <TH>z</TH>\n" +
-"	</TR>\n" + tabla1 +
-                
-                
-"        </TABLE>\n" +
-"                        </body>\n" +
-"    </html> " );}
+            tabla.getEngine().loadContent("<html>\n" +
+                                          "<head><title> beta </title></head>\n" +
+                                          "<body>\n" +
+                                          "<TABLE BORDER>\n" +
+                                          "<TR>\n" +
+                                          "<TH>x</TH> <TH>y</TH> <TH>z</TH>\n" +
+                                          "</TR>\n" + tabla1
+                                          "</TABLE>\n" +
+                                          "</body>\n" +
+                                          "</html> " );}
     }
     
     @FXML
@@ -162,21 +156,19 @@ public class FXMLController implements Initializable {
             d3 = Double.toString(listapuntos.get(i).z);
             
             tabla1 += "<TR>\n" +
-		"<TH>"+  d1    +"</TH><TH>"+     d2    +"</TH> <TH>" +  d3    + "</TH>\n" +
-      	"</TR>\n" ; 
+"<TH>"+d1+"</TH><TH>"+d2+"</TH> <TH>" +d3+ "</TH>\n" +
+"</TR>\n" ; 
             
             tabla.getEngine().loadContent(" <html>\n" +
 "<head><title> beta </title></head>\n" +
 "<body>\n" +
-"                <TABLE BORDER>\n" +
-"	<TR>\n" +
-"		<TH>x</TH> <TH>y</TH> <TH>z</TH>\n" +
-"	</TR>\n" + tabla1 +
-                
-                
-"        </TABLE>\n" +
-"                        </body>\n" +
-"    </html> " );}
+"<TABLE BORDER>\n" +
+"<TR>\n" +
+"<TH>x</TH> <TH>y</TH> <TH>z</TH>\n" +
+"</TR>\n" + tabla1 +
+"</TABLE>\n" +
+"</body>\n" +
+"</html> " );}
     }
     
     @FXML
@@ -197,18 +189,16 @@ public class FXMLController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) { 
         String tabla1 = "";
-       tabla.getEngine().loadContent(" <html>\n" +
+       tabla.getEngine().loadContent("<html>\n" +
 "<head><title> beta </title></head>\n" +
 "<body>\n" +
-"                <TABLE BORDER>\n" +
-"	<TR>\n" +
-"		<TH>x</TH> <TH>y</TH> <TH>z</TH>\n" +
-"	</TR>\n" + tabla1 +
-                
-                
-"        </TABLE>\n" +
-"                        </body>\n" +
-"    </html> " );
+"<TABLE BORDER>\n" +
+"<TR>\n" +
+"<TH>x</TH> <TH>y</TH> <TH>z</TH>\n" +
+"</TR>\n" + tabla1 +
+"</TABLE>\n" +
+"</body>\n" +
+"</html> " );
        
         
     }    
